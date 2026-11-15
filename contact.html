@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Emmanuel Wilson</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
+<script src="js/contact.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+<a class="brand" href="index.html">
+<span class="brand-mark">EW</span> Emmanuel<span>Wilson</span>
+</a>
+<button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+<nav class="nav-links" aria-label="Main navigation">
+<a href="index.html">Home</a>
+<a href="about.html">About Me</a>
+<a href="projects.html">Projects</a>
+<a href="planner.html">Academic Planner</a>
+<a class="active" href="contact.html">Contact</a>
+</nav>
+</header>
+
+<main>
+
+<section class="page-hero section-wrap">
+<p class="eyebrow">LET'S CONNECT</p>
+<h1>Get in <span class="accent">Touch</span></h1>
+<p class="lead">Have a question, an idea or a cybersecurity opportunity to discuss? Contact me using the details or form below.</p>
+</section>
+
+<section class="section-wrap contact-layout">
+
+<aside class="contact-info">
+<p class="eyebrow">CONTACT DETAILS</p>
+<h2>I'd be happy to hear from you.</h2>
+<p>Contact me at your convenience for your security work.</p>
+
+<div class="contact-detail">
+<span>✉</span>
+<div>
+<small>EMAIL</small>
+<strong>e.wilson3209@miva.edu.ng</strong>
+</div>
+</div>
+
+<div class="contact-detail">
+<span>☎</span>
+<div>
+<small>PHONE</small>
+<strong>+234 816 6594 664</strong>
+</div>
+</div>
+
+<div class="contact-detail">
+<span>☎</span>
+<div>
+<small>ALTERNATIVE PHONE</small>
+<strong>+234 817 5544 558</strong>
+</div>
+</div>
+
+<div class="contact-detail">
+<span>⌖</span>
+<div>
+<small>LOCATION</small>
+<strong>Nigeria</strong>
+</div>
+</div>
+</aside>
+
+<form class="contact-form panel" id="contact-form" novalidate>
+
+<div class="form-heading">
+<p class="eyebrow">SEND A MESSAGE</p>
+<h2>Contact form</h2>
+</div>
+
+<div class="field">
+<label for="name">Full name</label>
+<input id="name" name="name" type="text" autocomplete="name" value="Emmanuel Eghieyeremhe Wilson" required>
+<small class="error" id="name-error"></small>
+</div>
+
+<div class="field">
+<label for="email">Email address</label>
+<input id="email" name="email" type="email" autocomplete="email" value="e.wilson3209@miva.edu.ng" required>
+<small class="error" id="email-error"></small>
+</div>
+
+<div class="field">
+<label for="phone">Phone number</label>
+<input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+234 816 6594 664" required>
+<small class="error" id="phone-error"></small>
+</div>
+
+<div class="field">
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="5" required>Contact us at your convenience for your security work.</textarea>
+<small class="error" id="message-error"></small>
+</div>
+
+<button class="btn btn-primary" type="submit">Validate message</button>
+
+<p class="form-hint" id="contact-feedback" role="status">
+Demo form: validation runs in your browser; no message is sent to a server.
+</p>
+
+</form>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="section-wrap footer-inner">
+<p>© <span data-year></span> Emmanuel Eghieyeremhe Wilson · Cybersecurity Student Portfolio</p>
+<p>Designed with HTML, CSS & JavaScript</p>
+</div>
+</footer>
+
+</body>
+</html>
